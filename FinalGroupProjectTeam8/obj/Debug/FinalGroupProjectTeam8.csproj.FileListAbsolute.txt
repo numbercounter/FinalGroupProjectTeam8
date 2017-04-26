@@ -145,3 +145,4 @@ C:\Users\Patrick Monaghan\Documents\GitHub\FinalGroupProjectTeam8\FinalGroupProj
 C:\Users\Patrick Monaghan\Documents\GitHub\FinalGroupProjectTeam8\FinalGroupProjectTeam8\obj\Debug\FinalGroupProjectTeam8.Migrations.initialSetup.resources
 C:\Users\Patrick Monaghan\Documents\GitHub\FinalGroupProjectTeam8\FinalGroupProjectTeam8\obj\Debug\FinalGroupProjectTeam8.Migrations.test1.resources
 C:\Users\Patrick Monaghan\Documents\GitHub\FinalGroupProjectTeam8\FinalGroupProjectTeam8\obj\Debug\FinalGroupProjectTeam8.csproj.GenerateResource.Cache
+C:\Users\Patrick Monaghan\Documents\GitHub\FinalGroupProjectTeam8\FinalGroupProjectTeam8\obj\Debug\FinalGroupProjectTeam8.Migrations.ModelMig1.resources

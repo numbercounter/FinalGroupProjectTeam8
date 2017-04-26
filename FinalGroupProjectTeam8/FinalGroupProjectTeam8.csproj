@@ -206,6 +206,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BankUsersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RoleAdminController.cs" />
@@ -220,8 +221,28 @@
     <Compile Include="Migrations\201704232042284_test1.Designer.cs">
       <DependentUpon>201704232042284_test1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704262340581_ModelMig1.cs" />
+    <Compile Include="Migrations\201704262340581_ModelMig1.Designer.cs">
+      <DependentUpon>201704262340581_ModelMig1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\CashAccount.cs" />
+    <Compile Include="Models\CheckingAccount.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\Transfer.cs" />
+    <Compile Include="Models\Withdrawal.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Deposit.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\IRA.cs" />
+    <Compile Include="Models\Manager.cs" />
+    <Compile Include="Models\Payee.cs" />
+    <Compile Include="Models\SavingsAccount.cs" />
+    <Compile Include="Models\StockPortfolio.cs" />
+    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\BankUser.cs" />
     <Compile Include="Models\Dispute.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IdentityRoles.cs" />
@@ -235,6 +256,11 @@
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Views\BankUsers\Create.cshtml" />
+    <Content Include="Views\BankUsers\Delete.cshtml" />
+    <Content Include="Views\BankUsers\Details.cshtml" />
+    <Content Include="Views\BankUsers\Edit.cshtml" />
+    <Content Include="Views\BankUsers\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -251,6 +277,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201704232042284_test1.resx">
       <DependentUpon>201704232042284_test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704262340581_ModelMig1.resx">
+      <DependentUpon>201704262340581_ModelMig1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -7,5 +7,9 @@ namespace FinalGroupProjectTeam8.Models
 {
     public class Dispute
     {
+        String DisputeID { get; set; }
+        String TransactionID { get; set; }
+        String Comments { get; set; }
+
     }
 }

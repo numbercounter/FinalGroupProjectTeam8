@@ -11,6 +11,7 @@ namespace FinalGroupProjectTeam8.Controllers
         public ActionResult Index()
         {
             return View();
+            // return RedirectToAction("Index", "BankUsers");
         }
 
         public ActionResult About()

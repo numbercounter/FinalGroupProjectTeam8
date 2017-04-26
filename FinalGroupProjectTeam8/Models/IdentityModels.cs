@@ -32,6 +32,8 @@ namespace FinalGroupProjectTeam8.Models
         //Remember, Identity adds a db set for users, so you shouldn't add that one - you will get an error
         //public DbSet<Book> Books { get; set; }
 
+        public DbSet<BankUser> BankUsers { get; set; }
+
 
         //TODO: Make sure that your connection string name is correct here.
         public AppDbContext()
